@@ -24,6 +24,8 @@ public class NichtPermissons extends JavaPlugin {
         playerScoreboard = new PlayerScoreboard(this);
         tablistManager = new TablistManager(this);
         eventManager = new EventManager(this);
+        
+        getPlayerScoreboard().animate();
     }
     //</editor-fold>
     
