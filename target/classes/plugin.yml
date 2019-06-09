@@ -1,0 +1,5 @@
+name: NichtPermissons
+version: 1.13.2
+author: PaulMNS
+api-version: 1.13
+main: net.nichtserver.nichtpermissons.NichtPermissons

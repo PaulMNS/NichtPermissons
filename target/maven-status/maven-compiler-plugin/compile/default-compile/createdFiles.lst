@@ -1,0 +1,11 @@
+net\nichtserver\nichtpermissons\listeners\PlayerListeners.class
+net\nichtserver\nichtpermissons\enums\Groups.class
+net\nichtserver\nichtpermissons\managers\EventManager$EventListener.class
+net\nichtserver\nichtpermissons\NichtPermissons.class
+net\nichtserver\nichtpermissons\managers\ListenerExecutor.class
+net\nichtserver\nichtpermissons\utils\scoreboard\PlayerScoreboard.class
+net\nichtserver\nichtpermissons\utils\scoreboard\TablistManager.class
+net\nichtserver\nichtpermissons\utils\scoreboard\PlayerScoreboard$1.class
+net\nichtserver\nichtpermissons\utils\scoreboard\IScoreboardUtil.class
+net\nichtserver\nichtpermissons\managers\EventManager$1.class
+net\nichtserver\nichtpermissons\managers\EventManager.class
