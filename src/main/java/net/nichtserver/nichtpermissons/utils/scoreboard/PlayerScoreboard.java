@@ -187,73 +187,97 @@ public class PlayerScoreboard implements IScoreboardUtil {
                         break;
                     case 13:
                         Bukkit.getOnlinePlayers().stream().forEach(players -> {
-                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHTSERVE&b&lR".replaceAll("&", "§"));
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHTSERVER".replaceAll("&", "§"));
                         });
                         taskId++;
                         break;
                     case 14:
                         Bukkit.getOnlinePlayers().stream().forEach(players -> {
-                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHTSERV&b&lE&f&lR".replaceAll("&", "§"));
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHTSERVER".replaceAll("&", "§"));
                         });
                         taskId++;
                         break;
                     case 15:
                         Bukkit.getOnlinePlayers().stream().forEach(players -> {
-                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHTSER&b&lV&f&lER".replaceAll("&", "§"));
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHTSERVE&b&lR".replaceAll("&", "§"));
                         });
                         taskId++;
                         break;
                     case 16:
                         Bukkit.getOnlinePlayers().stream().forEach(players -> {
-                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHTSE&b&lR&f&lVER".replaceAll("&", "§"));
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHTSERV&b&lE&f&lR".replaceAll("&", "§"));
                         });
                         taskId++;
                         break;
                     case 17:
                         Bukkit.getOnlinePlayers().stream().forEach(players -> {
-                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHTS&b&lE&f&lRVER".replaceAll("&", "§"));
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHTSER&b&lV&f&lER".replaceAll("&", "§"));
                         });
                         taskId++;
                         break;
                     case 18:
                         Bukkit.getOnlinePlayers().stream().forEach(players -> {
-                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHT&b&lS&f&lERVER".replaceAll("&", "§"));
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHTSE&b&lR&f&lVER".replaceAll("&", "§"));
                         });
                         taskId++;
                         break;
                     case 19:
                         Bukkit.getOnlinePlayers().stream().forEach(players -> {
-                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICH&b&LT&f&LSERVER".replaceAll("&", "§"));
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHTS&b&lE&f&lRVER".replaceAll("&", "§"));
                         });
                         taskId++;
                         break;
                     case 20:
                         Bukkit.getOnlinePlayers().stream().forEach(players -> {
-                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNIC&b&lH&f&lTSERVER".replaceAll("&", "§"));
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICHT&b&lS&f&lERVER".replaceAll("&", "§"));
                         });
                         taskId++;
                         break;
                     case 21:
                         Bukkit.getOnlinePlayers().stream().forEach(players -> {
-                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNI&b&lC&f&lHTSERVER".replaceAll("&", "§"));
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNICH&b&LT&f&LSERVER".replaceAll("&", "§"));
                         });
                         taskId++;
                         break;
                     case 22:
                         Bukkit.getOnlinePlayers().stream().forEach(players -> {
-                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lN&b&lI&f&lCHTSERVER".replaceAll("&", "§"));
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNIC&b&lH&f&lTSERVER".replaceAll("&", "§"));
                         });
                         taskId++;
                         break;
                     case 23:
                         Bukkit.getOnlinePlayers().stream().forEach(players -> {
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lNI&b&lC&f&lHTSERVER".replaceAll("&", "§"));
+                        });
+                        taskId++;
+                        break;
+                    case 24:
+                        Bukkit.getOnlinePlayers().stream().forEach(players -> {
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&3&lN&b&lI&f&lCHTSERVER".replaceAll("&", "§"));
+                        });
+                        taskId++;
+                        break;
+                    case 25:
+                        Bukkit.getOnlinePlayers().stream().forEach(players -> {
                             players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&b&lN&f&lICHTSERVER".replaceAll("&", "§"));
+                        });
+                        taskId++;
+                        break;
+                    case 26:
+                        Bukkit.getOnlinePlayers().stream().forEach(players -> {
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&f&lNICHTSERVER".replaceAll("&", "§"));
+                        });
+                        taskId++;
+                        break;
+                    case 27:
+                        Bukkit.getOnlinePlayers().stream().forEach(players -> {
+                            players.getScoreboard().getObjective(DisplaySlot.SIDEBAR).setDisplayName("&f&lNICHTSERVER".replaceAll("&", "§"));
                         });
                         taskId = 0;
                         break;
                 }
             }
-        }, 10L, 10L);
+        }, 5L, 5L);
     }
 
     @Override
