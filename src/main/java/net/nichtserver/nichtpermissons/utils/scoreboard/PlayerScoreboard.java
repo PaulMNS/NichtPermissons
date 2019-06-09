@@ -277,7 +277,7 @@ public class PlayerScoreboard implements IScoreboardUtil {
                         break;
                 }
             }
-        }, 5L, 5L);
+        }, 6L, 6L);
     }
 
     @Override
